@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 
     }
-    $('input[type="checkbox"]').change(function(){
+    $('input[type="radio"]').change(function(){
     showdiv($(this).val());
     });
 });
